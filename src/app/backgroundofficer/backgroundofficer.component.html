@@ -1,0 +1,43 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+ </head>
+<div class="container">
+ 
+ 
+  <div class="modal fade" id="myModal" role="alert">
+    <div class="modal-alert">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Logot</h4>
+        </div>
+        <div class="modal-body">
+          <p>confirm</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+  <pre>
+  <a routerLink="/officer/setStatus" class="btn btn-info"><span class="spinner-grow spinner-grow-sm"> </span>Set-Status</a>                         <a routerLink="/officer/statusList" class="btn btn-info"><span class="spinner-grow spinner-grow-sm"> </span>Status-list</a>                                   <a routerLink="/officer/searchDocument" class="btn btn-info"><span class="spinner-grow spinner-grow-sm"> </span>Search Documents</a>                <a routerLink="/Logout" class="btn btn-danger" data-toggle="modal" data-target="#myModal" ><span class="spinner-grow spinner-grow-sm"> </span>Logout</a>
+
+ </pre>
+ <router-outlet></router-outlet>
+ 
+
+
+
